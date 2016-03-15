@@ -1,8 +1,6 @@
 h1 {
     font-size: 42px;
-    margin-top: 60px;
-    
-    
+    margin-top: 60px;   
 }
 
 h2 {
@@ -53,9 +51,49 @@ li {
 }
 
 
-
-
-* {
-   
+caption {
+  font-size: 27px;
+  margin: 40px;  
+  text-align: left;
+  text-transform: uppercase;
+  margin-bottom: 20px;
 }
-     
+
+th {
+    text-align: left;
+    padding-right: 3opx;
+}
+
+td {
+    padding-right: 30p;
+    padding-top: 10px;
+}
+
+input {
+    margin-left: 10px;
+    padding: 10px;
+    border: none;
+    background-color: rgb(247, 247, 247 );
+    
+}
+
+textarea {
+    border: none;
+    background-color: rgb(247, 247, 247); 
+}
+
+fieldset {
+    width: 400px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    background-color:  rgb(168, 109, 147);
+    color:rgb(247, 247, 247);
+}
+
+button:hover {
+ background-color:  rgb(117, 41, 90);   
+}
